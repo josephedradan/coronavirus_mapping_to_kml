@@ -18,8 +18,7 @@ Data:
 
 How to Use:
     Download the Novel Corona Virus 2019 Dataset
-    Open zip file and extract the COVID19_open_line_list.csv
-    Save it as an .xlsx file
+    Open zip file and extract the COVID19_open_line_list.csv into the same dir
     Run script
 
 """
