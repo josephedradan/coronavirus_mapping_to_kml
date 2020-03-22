@@ -33,6 +33,9 @@ import simplekml
 
 from Coronavirus_Mapping_kml.LatitudeLongitudeContainer import LatitudeLongitudeContainer
 
+# pandas prerequisite
+PATH_CSV_FILE = r"COVID19_open_line_list.csv"
+
 # openpyxl prerequisite
 OUTPUT_FILE_NAME = "{}".format(path.splitext(__file__)[0])
 PATH_EXCEL_FILE = r"COVID19_open_line_list.xlsx"
@@ -50,11 +53,12 @@ COLUMN_LONGITUDE = "I"
 ROW_START = 2
 ROW_END = 13175
 
+# Make the Excel file
+pd.read_csv(PATH_CSV_FILE).to_excel(PATH_EXCEL_FILE, sheet_name=SHEET_NAME)
+
+# openpyxl open excel file
 WORKBOOK = openpyxl.load_workbook(PATH_EXCEL_FILE)
 SHEET = WORKBOOK[SHEET_NAME]
-
-# pandas prerequisite
-PATH_CSV_FILE = r"COVID19_open_line_list.csv"
 
 
 def get_dict_key_tuple_lat_long_value_lat_long_container_pandas():
@@ -191,7 +195,7 @@ def get_list_from_sorted_dict_key_tuple_lat_long_value_lat_long_container(dict_g
 
     temp_list.sort(reverse=True)
 
-    [print(i) for i in temp_list]
+    # [print(i) for i in temp_list]
     return temp_list
 
 
@@ -244,3 +248,5 @@ if __name__ == '__main__':
     # Create kml file
     create_kml(list_temp_pandas, "_pandas")
     create_kml(list_temp_openpyxl, "_openpyxl")
+
+    print("Done!")
