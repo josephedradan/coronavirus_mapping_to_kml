@@ -16,4 +16,4 @@ How to use:
 4. Go to google maps Menu > Your Places > Maps > CREATE MAP > Add layer > Untitled layer > Import
 5. Upload the kml files created by the script.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1ohBdb42Q5zrpkFQYuJaOB5DOPlWR5nL2&hl=en" width="800" height="800"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1ohBdb42Q5zrpkFQYuJaOB5DOPlWR5nL2&hl=en" width="1200" height="1200"></iframe>
