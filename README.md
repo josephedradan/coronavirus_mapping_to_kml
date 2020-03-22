@@ -1,5 +1,5 @@
 # Coronavirus Infected Visualization on Google Maps 
-## Based on the Kaggle's Novel Corona Virus 2019 Dataset's COVID19_open_line_list.csv
+### Using the Kaggle's Novel Corona Virus 2019 Dataset's COVID19_open_line_list.csv
 
 [Link to the visualization](https://josephedradan.github.io/Coronavirus_Mapping_kml/)
 
