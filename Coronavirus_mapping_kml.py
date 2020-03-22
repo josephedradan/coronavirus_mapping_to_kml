@@ -203,7 +203,7 @@ def create_kml(list_given: List[LatitudeLongitudeContainer], name_ending=""):
     kml = simplekml.Kml()
 
     for container in list_given:
-        string_location = "{} {} {}".format(container.country, container.city, container.count_infected)
+        string_location = "{} {}: {}".format(container.country, container.city, container.count_infected)
 
         # Marker
         point = kml.newpoint(name=string_location)
