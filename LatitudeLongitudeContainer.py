@@ -55,10 +55,11 @@ class LatitudeLongitudeContainer:
             return self.__hash__() == other
 
     def __ne__(self, other):
-        if isinstance(other, LatitudeLongitudeContainer):
-            return self.__hash__() == other.__hash__()
-        if isinstance(other, int):
-            return self.__hash__() == other
+        # if isinstance(other, LatitudeLongitudeContainer):
+        #     return self.__hash__() == other.__hash__()
+        # if isinstance(other, int):
+        #     return self.__hash__() == other
+        return not self.__eq__(other)
 
     def __gt__(self, other):
         if isinstance(other, LatitudeLongitudeContainer):
