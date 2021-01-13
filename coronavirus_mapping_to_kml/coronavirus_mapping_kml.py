@@ -31,7 +31,7 @@ import numpy as np
 import simplekml
 
 # pandas prerequisite
-from coronavirus_mapping_to_kml.latitude_longitude_container import LatitudeLongitudeContainer
+from coronavirus_mapping_to_kml.coronavirus_mapping_to_kml.latitude_longitude_container import LatitudeLongitudeContainer
 
 PATH_CSV_FILE = r"COVID19_open_line_list.csv"
 
