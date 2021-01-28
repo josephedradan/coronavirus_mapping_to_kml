@@ -2,7 +2,7 @@
 ### Using the Kaggle's Novel Corona Virus 2019 Dataset's COVID19_open_line_list.csv
 [Repo](https://github.com/josephedradan/Coronavirus_Mapping_kml)
 
-[LINK TO VISUALIZATION](https://josephedradan.github.io/Coronavirus_Mapping_kml/)
+[LINK TO VISUALIZATION](https://josephedradan.github.io/coronavirus_mapping_to_kml/)
 
 Using the [Kaggle's Novel Corona Virus 2019 Dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset) on the COVID19_open_line_list.csv file, map the locations of infected individuals.
 I made this because the JohnHopkins [map](https://coronavirus.jhu.edu/map.html) was not very specific and I don't have money for the google cloud platform for the Google Maps Platform.
