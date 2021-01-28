@@ -1,6 +1,6 @@
 # Coronavirus Infected Visualization on Google Maps 
 ### Using the Kaggle's Novel Corona Virus 2019 Dataset's COVID19_open_line_list.csv
-[Repo](https://github.com/josephedradan/Coronavirus_Mapping_kml)
+[The current Repo](https://github.com/josephedradan/Coronavirus_Mapping_kml)
 
 [LINK TO VISUALIZATION](https://josephedradan.github.io/coronavirus_mapping_to_kml/)
 
@@ -10,7 +10,7 @@ I made this because the JohnHopkins [map](https://coronavirus.jhu.edu/map.html) 
 Note: The Latitude and Longitude values from the dataset don't accurately represent the location on the map.
 
 Edit 3/23/2020:
-LOOKS LIKE THE GUYS AT JOHNHOPKIN'S ACTUALLY DECIDED TO SHOW THE AMOUNT OF PEOPLE INFECTED PER CITY RATHER THAN JUST STATE RENDERING THIS SCRIPT PRETTY USELESS.
+LOOKS LIKE THE GUYS AT JOHNHOPKIN'S ACTUALLY DECIDED TO SHOW THE AMOUNT OF PEOPLE INFECTED PER CITY RATHER THAN JUST STATE RENDERING THIS SCRIPT USELESS.
 
 How to use:
 1. Download the Kaggle's Novel Corona Virus 2019 Dataset
